@@ -1,0 +1,18 @@
+paste in webpack.config:
+
+
+
+patterns: [
+{ from: "./src/img/summer/top", to: "assets" },
+				{ from: "./src/img/summer/middle", to: "assets" },
+				{ from: "./src/img/summer/bottom", to: "assets" },
+				{ from: "./src/img/winter/top", to: "assets" },
+				{ from: "./src/img/winter/middle", to: "assets" },
+				{ from: "./src/img/winter/bottom", to: "assets" },
+				{ from: "./src/img/spring/top", to: "assets" },
+				{ from: "./src/img/spring/middle", to: "assets" },
+				{ from: "./src/img/spring/bottom", to: "assets" },
+				{ from: "./src/img/autumn/top", to: "assets" },
+				{ from: "./src/img/autumn/middle", to: "assets" },
+				{ from: "./src/img/autumn/bottom", to: "assets" },
+]

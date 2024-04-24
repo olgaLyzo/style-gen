@@ -1,0 +1,39 @@
+.params {
+  display: flex;
+  flex-direction: column;
+  width: 180px;
+  border: 1px solid red;
+  margin-bottom: 20px;
+}
+
+.outfit-conteiner {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  border: 1px solid blue;
+  flex-basis: content;
+}
+
+#topClodth,
+#middleClodth,
+#bottomClodth {
+  border: 1px solid blue;
+}
+
+option[value=""] {
+  display: none;
+}
+
+#btn[disabled] {
+  background-color: lightgrey;
+}
+#btn:not(:disabled) {
+  background-color: lightgreen;
+}
+button,
+img {
+  cursor: pointer;
+}
+
+@media() {
+}

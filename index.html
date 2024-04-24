@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Style-gen factory</title>
+	</head>
+	<body>
+	 <h3>Choose suitable options to create your outfit:</h3>
+	 <section class="params">
+		 <select name="season" id="season">
+			<option value="" class = "seasonOption" disabled selected>-- Choose a season --</option>
+			<option value="spring" class = "seasonOption">Spring</option>
+			<option value="summer" class = "seasonOption">Summer</option>
+			<option value="autumn" class = "seasonOption">Autumn</option>
+			<option value="winter" class = "seasonOption">Winter</option>
+		 </select>
+		 <select name="temperature" id="temperature" onchange = "checkValue()">
+			<option value="" class="tempOption" disabled selected>-- Choose a temperature --</option>
+			<option value="warm" class="tempOption">Warm</option>
+			<option value="hot" class="tempOption">Hot</option>
+			<option value="medium-cold" class="tempOption">Medium-cold</option>
+			<option value="cold" class="temp">Cold</option>
+		 </select>
+			<button id="btn" disabled>Create outfit</button>
+	</section>
+	
+	
+	 <div class="outfit-conteiner">
+			<div id="topClodth">What is Lorem Ipsum?
+	Lorem Ipsum is simply dummy text of the printing and typesetting industry. </div>
+			<div id="middleClodth">What is Lorem Ipsum?
+	Lorem Ipsum is simply dummy text of the printing and typesetting industry. </div>
+			<div id="bottomClodth">What is Lorem Ipsum?
+	Lorem Ipsum is simply dummy text of the printing and typesetting industry. </div>
+		</div>
+	</body>
+</html>
